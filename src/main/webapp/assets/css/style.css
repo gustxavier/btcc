@@ -1,18 +1,4 @@
 @charset "UTF-8";
-/*------------------------
-[TABLE OF CONTENTS]
-    
-1. GLOBAL STYLES
-2. NAVBAR
-3. HERO
-4. TABS
-5. TESTIMONIALS
-6. IMAGE GALLERY
-7. PRICING
-8. CALL TO ACTION
-9. FOOTER
-
-------------------------*/
 
 /*
 * #.# Global
@@ -20,7 +6,8 @@
 
 @font-face {
     font-family: 'SimplonLight'; /*a name to be used later*/
-    src: url(http://localhost:8080/Btcc/assets/fonts/SimplonBP-Light.ttf); /*URL to font*/
+    /*src: url(http://localhost:8080/btcc/assets/fonts/simplonbp-light-webfont.ttf);*/ 
+    src: url(http://http://btcc-btcc.7e14.starter-us-west-2.openshiftapps.com/assets/fonts/SimplonBP-Light.ttf);
 }
 
 body {

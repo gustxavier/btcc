@@ -3,7 +3,6 @@
     Created on : 14/05/2018, 17:50:39
     Author     : ESPACO
 --%>
-
 <%@include file="../assets/inc/head.html"%>
 <%@include file="../assets/inc/header.html"%>
 
@@ -73,5 +72,4 @@
         </div>
     </div>
 </section>
-
 <%@include file="../assets/inc/footer.html"%>
