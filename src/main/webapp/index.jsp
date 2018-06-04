@@ -1,11 +1,6 @@
-<%-- 
-    Document   : index
-    Created on : 14/05/2018, 17:50:39
-    Author     : ESPACO
---%>
 <%@include file="../assets/inc/head.html"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@include file="../assets/inc/header.html"%>
-
 <section id="bem-vindo" class="section section-top">  
     <div class="container">
         <div class="row">
@@ -14,7 +9,7 @@
                     SEJA <br /> BEM-VINDO
                 </h1>
                 <p>
-                    A BTCC Conex„o Cliente È uma empresa do Grupo Oi, que atua no mercado de telecomunicaÁıes desde 2007 e È sinÙnimo de excelÍncia no atendimento. Investe na capacitaÁ„o e motivaÁ„o de seus 13 mil colaboradores, para entregar os resultados com qualidade.
+                    A BTCC Conex√£o Cliente √© uma empresa do Grupo Oi, que atua no mercado de telecomunica√ß√µes desde 2007 e √© sin√¥nimo de excel√™ncia no atendimento. Investe na capacita√ß√£o e motiva√ß√£o de seus 13 mil colaboradores, para entregar os resultados com qualidade.
                 </p>
             </div>
             <div class="col-md-6 col-xs-12 image first">
@@ -35,12 +30,12 @@
                     VENHA <br /> TRABALHAR <br /> CONOSCO
                 </h1>
                 <p>
-                    Estamos sempre ‡ procura de novos talentos para integrar nosso time de colaboradores. Pessoas que querem fazer a diferenÁa, usando suas vozes para entregar a soluÁ„o que nossos clientes tanto valorizam.
+                    Estamos sempre √† procura de novos talentos para integrar nosso time de colaboradores. Pessoas que querem fazer a diferen√ßa, usando suas vozes para entregar a solu√ß√£o que nossos clientes tanto valorizam.
                 </p>
-                <a href="#" class="btn-btcc hvr-pop">VAGAS DISPONÕVEIS</a>
+                <a href="#" class="btn-btcc hvr-pop">VAGAS DISPON√çVEIS</a>
                 <div class="vagas-pcd">
                     <div class="col-md-10 col-xs-12">
-                        <p class="vagas-pcd">TODAS AS VAGAS EST√O DISPONÕVEIS TAMB…M PARA PCD.</p>
+                        <p class="vagas-pcd">TODAS AS VAGAS EST√ÉO DISPON√çVEIS TAMB√âM PARA PCD.</p>
                     </div>
                     <div class="col-md-2 col-xs-12"><i class="fa fa-wheelchair" aria-hidden="true"></i></div>
                 </div>
@@ -57,10 +52,10 @@
                     ONDE <br /> ESTAMOS
                 </h1>
                 <p>
-                    Presente nos quatro estados do paÌs, a BTCC est· sempre conectando oportunidades, transmitindo valores e estabelecendo um di·logo de soluÁıes para cada cliente.
+                    Presente nos quatro estados do pa√≠s, a BTCC est√° sempre conectando oportunidades, transmitindo valores e estabelecendo um di√°logo de solu√ß√µes para cada cliente.
                 </p>
                 <ul class="cidades">
-                    <li><i class="fa fa-map-marker" aria-hidden="true"></i> GOI¬NIA - GO</li>
+                    <li><i class="fa fa-map-marker" aria-hidden="true"></i> GOI√ÇNIA - GO</li>
                     <li><i class="fa fa-map-marker" aria-hidden="true"></i> CAMPO GRANDE - MS</li>
                     <li><i class="fa fa-map-marker" aria-hidden="true"></i> CURITIBA - PR</li>
                     <li><i class="fa fa-map-marker" aria-hidden="true"></i> RIO DE JANEIRO-RJ</li>

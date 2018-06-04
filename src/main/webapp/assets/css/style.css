@@ -6,8 +6,8 @@
 
 @font-face {
     font-family: 'SimplonLight'; /*a name to be used later*/
-    /*src: url(http://localhost:8080/btcc/assets/fonts/simplonbp-light-webfont.ttf);*/ 
-    src: url(http://btcc-btcc.7e14.starter-us-west-2.openshiftapps.com/assets/fonts/SimplonBP-Light.ttf);
+    src: url(http://localhost:8080/btcc/assets/fonts/simplonbp-light-webfont.ttf); 
+    /*src: url(http://btcc-btcc.7e14.starter-us-west-2.openshiftapps.com/assets/fonts/SimplonBP-Light.ttf);*/
 }
 
 body {

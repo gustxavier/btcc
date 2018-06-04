@@ -35,7 +35,6 @@
                     <source>1.8</source>
                     <target>1.8</target>
                     <encoding>${project.build.sourceEncoding}</encoding>
-                    <encoding>UTF-8</encoding>
                     <compilerArguments>
                         <endorseddirs>${endorsed.dir}</endorseddirs>
                     </compilerArguments>
@@ -56,7 +55,6 @@
                 <version>3.1.0</version>
                 <configuration>
                     <encoding>${project.build.sourceEncoding}</encoding>
-                    <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
             <plugin>
@@ -70,7 +68,6 @@
                             <goal>copy</goal>
                         </goals>
                         <configuration>
-                            <encoding>UTF-8</encoding>
                             <outputDirectory>${endorsed.dir}</outputDirectory>
                             <silent>true</silent>
                             <artifactItems>
