@@ -472,6 +472,14 @@ a.btn-btcc{
     border-radius: 10px;
 }
 
+#empresa .slick-prev:before, .slick-next:before{
+    color: #afafaf;
+}
+
+#empresa .slick-slider .slick-track, #empresa .slick-slider .slick-list{
+    height: 390px !important;
+}
+
 #premios {
     padding: 100px 0px;
 }
