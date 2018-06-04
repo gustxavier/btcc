@@ -1,5 +1,5 @@
-<%@include file="../assets/inc/head.html"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@include file="../assets/inc/head.html"%>
 <%@include file="../assets/inc/header.html"%>
 <section id="bem-vindo" class="section section-top">  
     <div class="container">
