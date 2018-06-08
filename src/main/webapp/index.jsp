@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@include file="../assets/inc/head.html"%>
-<%@include file="../assets/inc/header.html"%>
+<%@include file="../assets/inc/header.jsp"%>
 <section id="bem-vindo" class="section section-top">  
     <div class="container">
         <div class="row">
@@ -55,9 +55,9 @@
                     Presente nos quatro estados do país, a BTCC está sempre conectando oportunidades, transmitindo valores e estabelecendo um diálogo de soluções para cada cliente.
                 </p>
                 <ul class="cidades">
-                    <li><i class="fa fa-map-marker" aria-hidden="true"></i> GOIÂNIA - GO</li>
-                    <li><i class="fa fa-map-marker" aria-hidden="true"></i> CAMPO GRANDE - MS</li>
                     <li><i class="fa fa-map-marker" aria-hidden="true"></i> CURITIBA - PR</li>
+                    <li><i class="fa fa-map-marker" aria-hidden="true"></i> CAMPO GRANDE - MS</li>
+                    <li><i class="fa fa-map-marker" aria-hidden="true"></i> GOIÂNIA - GO</li>
                     <li><i class="fa fa-map-marker" aria-hidden="true"></i> RIO DE JANEIRO-RJ</li>
                 </ul>
             </div>

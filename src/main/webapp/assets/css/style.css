@@ -88,7 +88,6 @@ a.btn-btcc{
     text-decoration: none;
     background-color: #ffffff;
     padding: 5px 50px;
-    font-weight: 780;
     font-size: 25px;
     border-radius: 25px;
 }
@@ -206,6 +205,11 @@ a.btn-btcc{
 
 .navbar-nav .nav-link {
     position: relative;
+}
+
+.navbar-nav span{
+    margin-top: 5px;
+    color: #ffffff;
 }
 
 .navbar-dark .navbar-nav .nav-link{
@@ -472,6 +476,10 @@ a.btn-btcc{
     border-radius: 10px;
 }
 
+#premios {
+    margin-top: 50px;
+}
+
 #premios .slick-prev:before, .slick-next:before{
     color: #afafaf;
 }
@@ -482,6 +490,10 @@ a.btn-btcc{
 
 #premios .container{
     padding: 100px 15px;
+}
+
+#premios .container .row{
+    margin-top: 50px;
 }
 
 #premios .slick-slide img{
@@ -525,6 +537,79 @@ a.btn-btcc{
 
 #contadores i.fa-volume-control-phone{
     color: #9cad37; /* Old browsers */
+}
+
+
+/*
+* #.# Contato
+*/
+
+#contato .title{
+    margin: 60px 0px 30px 0;
+    font-size: 25px;
+    font-weight: 600;
+    color: #367389;
+}
+
+#contato .image{
+    margin-bottom: 15px;
+}
+
+#contato .image h3{
+    font-size: 25px;
+    padding: 50px 0px 0px 15px;
+    font-weight: 600;
+}
+
+#contato .address{
+    bottom: 10px;
+    margin: 0px 30px 0px 15px;
+    position: absolute;
+}
+
+#contato .address div{
+    display: flex;
+}
+
+#contato .address a{
+    color: #fff;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+#contato .address i {
+    font-size: 25px;
+    margin: 3px 5px 0px 0px;
+    color: #ffffff;
+    opacity: 0.5;
+}
+
+#contato .image .goiania{
+    background: url(http://btcc-btcc.7e14.starter-us-west-2.openshiftapps.com/assets/images/background-cc-goiania.jpg) center center no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    height: 430px;
+}
+
+#contato .image .campogrande{
+    background: url(http://btcc-btcc.7e14.starter-us-west-2.openshiftapps.com/assets/images/background-cc-campogrande.jpg) center center no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    height: 430px;
+}
+
+#contato .image .curitiba{
+    background: url(http://btcc-btcc.7e14.starter-us-west-2.openshiftapps.com/assets/images/background-cc-curitiba.jpg) center center no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    height: 430px;
+}
+
+#contato .image .riodejaneiro{
+    background: url(http://btcc-btcc.7e14.starter-us-west-2.openshiftapps.com/assets/images/background-cc-riodejaneiro.jpg) center center no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    height: 430px;
 }
 
 
@@ -576,16 +661,16 @@ footer a:hover{
 }
 
 footer a.facebook{    
-    padding: 4px 15px;
+    padding: 9px 15px;
 }
 
 footer a.instagram,
 footer a.linkedin{
-    padding: 4px 11px;
+    padding: 9px 11px;
 }
 
 footer a.youtube{
-    padding: 4px 9px;
+    padding: 9px 9px;
 }
 
 @media (max-width:767px){ 

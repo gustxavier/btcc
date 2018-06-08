@@ -12,7 +12,9 @@ $(function () {
             $navmenu.removeClass("is-scrolling");
         }
     }
+
     menuscroll();
+
     $(window).on('scroll', function () {
         menuscroll();
     });
@@ -49,4 +51,17 @@ $(function () {
             }
         }
     });
+
+    /*-----------------------------------
+     * MARK MENU HEADER SELECTED
+     *-----------------------------------*/
+    function menuHeaderSelected() {
+
+        $('a.nav-link').on('click', function (e) {
+            $('a.nav-link').removeClass('active');
+            $(this).addClass('active');
+        });
+    }
+    menuHeaderSelected();
+
 }); /* End Fn */

@@ -16,7 +16,7 @@
     }
 </style>
 
-<%@include file="../assets/inc/header.html"%>
+<%@include file="../assets/inc/header.jsp"%>
 <section class="banner-trabalhe-conosco">
     <div class="container">
         <div class="row">
