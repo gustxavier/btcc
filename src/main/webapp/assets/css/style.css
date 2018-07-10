@@ -83,13 +83,23 @@ p.lead {
 }
 
 a.btn-btcc{
-    font-family: roboto;
     color: #347288;
     text-decoration: none;
     background-color: #ffffff;
     padding: 5px 50px;
     font-size: 25px;
+    font-weight: 800;
     border-radius: 25px;
+}
+
+a.btn-btcc-transparent{
+    color: #fff;
+    border: 3px solid;
+    border-radius: 25px;
+    padding: 3px 25px;
+    font-weight: 600;
+    font-size: 17px;
+    text-decoration: none;
 }
 
 .btn-outline-light:hover {

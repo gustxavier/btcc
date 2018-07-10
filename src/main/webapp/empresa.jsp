@@ -64,8 +64,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <iframe width="100%" height="600" src="https://www.youtube.com/embed/XTLarjN6hRM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            </div>
+                <iframe width="100%" height="600" src="https://www.youtube.com/embed/R7AuPLqlgSo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>            </div>
         </div>
     </div>
 </section>

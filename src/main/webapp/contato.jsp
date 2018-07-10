@@ -39,16 +39,6 @@
             </div>
             <div class="col-md-3 col-xs-6">
                 <div class="image">
-                    <div class="goiania"><h3>Goiânia, GO</h3></div>
-                    <div class="address">
-                        <div>
-                            <i class="fa fa-map-marker" aria-hidden="true"></i><a href="https://goo.gl/maps/wizVp5tLwdC2" target="_black">Alameda Moisés Santana nº 156, Vila Redenção. CEP: 74850-130</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-xs-6">
-                <div class="image">
                     <div class="campogrande"><h3>Campo Grande, MS</h3></div>
                     <div class="address">
                         <div>
@@ -73,6 +63,16 @@
                         <div>
                             <i class="fa fa-map-marker" aria-hidden="true"></i>
                             <a href="https://goo.gl/maps/YAT9Xbtw9Kx" target="_black">Travessa Teixeira de Freitas no 141, São Francisco. CEP: 80410-040</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+                <div class="image">
+                    <div class="goiania"><h3>Goiânia, GO</h3></div>
+                    <div class="address">
+                        <div>
+                            <i class="fa fa-map-marker" aria-hidden="true"></i><a href="https://goo.gl/maps/wizVp5tLwdC2" target="_black">Alameda Moisés Santana nº 156, Vila Redenção. CEP: 74850-130</a>
+                        </div>
                     </div>
                 </div>
             </div>

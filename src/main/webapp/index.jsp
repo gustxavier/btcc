@@ -11,6 +11,7 @@
                 <p>
                     A BTCC Conexão Cliente é uma empresa do Grupo Oi, que atua no mercado de telecomunicações desde 2007 e é sinônimo de excelência no atendimento. Investe na capacitação e motivação de seus 13 mil colaboradores, para entregar os resultados com qualidade.
                 </p>
+                <a href="empresa.jsp" class="btn-btcc-transparent hvr-pop">Saiba mais</a>
             </div>
             <div class="col-md-6 col-xs-12 image first">
                 <img src="assets/images/pessoa-bem-vindo.png" />            
@@ -55,8 +56,8 @@
                     Presente nos quatro estados do país, a BTCC está sempre conectando oportunidades, transmitindo valores e estabelecendo um diálogo de soluções para cada cliente.
                 </p>
                 <ul class="cidades">
-                    <li><i class="fa fa-map-marker" aria-hidden="true"></i> CURITIBA - PR</li>
                     <li><i class="fa fa-map-marker" aria-hidden="true"></i> CAMPO GRANDE - MS</li>
+                    <li><i class="fa fa-map-marker" aria-hidden="true"></i> CURITIBA - PR</li>
                     <li><i class="fa fa-map-marker" aria-hidden="true"></i> GOIÂNIA - GO</li>
                     <li><i class="fa fa-map-marker" aria-hidden="true"></i> RIO DE JANEIRO-RJ</li>
                 </ul>
