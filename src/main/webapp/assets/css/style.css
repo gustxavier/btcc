@@ -6,8 +6,7 @@
 
 @font-face {
     font-family: 'SimplonLight'; /*a name to be used later*/
-    /*src: url(http://localhost:8080/btcc/assets/fonts/simplonbp-light-webfont.ttf);*/ 
-    src: url(http://btcc-btcc.7e14.starter-us-west-2.openshiftapps.com/assets/fonts/simplonbp-light-webfont.ttf);
+    src: url(../fonts/simplonbp-light-webfont.ttf); 
 }
 
 body {
@@ -170,6 +169,12 @@ a.btn-btcc-transparent{
 
 .image img{
     max-width: 100%;
+}
+
+.line{
+    border: 0.5px solid #ccc;
+    width: 100%;
+    display: block;
 }
 
 @media (max-width:767px) {
@@ -481,13 +486,21 @@ a.btn-btcc-transparent{
 }
 
 #empresa .box-valores{
-    border: 1px solid #367389;
     padding: 35px 60px;
     border-radius: 10px;
+    background-color: #D1723A;
+}
+
+#empresa .box-valores p{
+    color: #ffffff;
 }
 
 #premios {
     margin-top: 50px;
+}
+
+#premios .content{
+    padding: 105px 30px;
 }
 
 #premios .slick-prev:before, .slick-next:before{
@@ -549,6 +562,71 @@ a.btn-btcc-transparent{
     color: #9cad37; /* Old browsers */
 }
 
+
+/*
+* #.# Prêmios
+*/
+
+#page-premios{
+    padding: 65px 0;
+}
+
+#page-premios p{
+    color: #555555;
+}
+
+#page-premios .title p{
+    color: #367389;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+#page-premios .premios{
+    padding-top: 35px;
+}
+
+#page-premios .premios p.data{
+    font-weight: 600;
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+
+#page-premios .premios p.qtd-premios{
+    font-size: 30px;
+    font-weight: 600;
+    color: #D07039;
+}
+
+#page-premios .premios .premio{
+    padding: 35px 0 15px 0;
+}
+
+#page-premios .premios .premio img{
+    float: right;
+    position: inherit;
+}
+
+#page-premios .premios .premio ul{
+    padding: 0 0 0 20px;
+    list-style: circle;
+}
+
+@media (max-width: 575px){
+    #page-premios .premios .premio .image{
+        text-align: center;
+    }
+
+    #page-premios .premios .premio img{
+        float: none;
+    }
+
+    #page-premios .premios .premio img,
+    #page-premios .premios p.data,
+    #page-premios .premios p.qtd-premios{
+        text-align: center;
+    }
+}
 
 /*
 * #.# Contato

@@ -18,10 +18,12 @@
                                 <li class="nav-item"><a class="nav-link <%if (pageName.equals("empresa.jsp")) {
                                         out.print("active");
                                     }%>" href="empresa.jsp">EMPRESA</a></li><span>|</span>
-                                <li class="nav-item"><a class="nav-link" href="empresa.jsp#premios">PR&Ecirc;MIOS</a></li><span>|</span>
-                                <li class="nav-item"><a class="nav-link" href="https://btcc.referrals.selectminds.com/">VAGAS</a></li><span>|</span>
-                                <li class="nav-item"><a class="nav-link" href="#intranet">INTRANET</a></li><span>|</span>
-                                <li class="nav-item"><a class="nav-link" href="#noticias">NOT&Iacute;CIAS</a></li><span>|</span>
+                                <li class="nav-item"><a class="nav-link  <%if (pageName.equals("premios.jsp")) {
+                                        out.print("active");
+                                    }%>" href="premios.jsp">PR&Ecirc;MIOS</a></li><span>|</span>
+                                <li class="nav-item"><a class="nav-link" href="//btcc.referrals.selectminds.com/">VAGAS</a></li><span>|</span>
+                                <li class="nav-item"><a class="nav-link" href="//intranet.btcc.com.br">INTRANET</a></li><span>|</span>
+                                <!--                                <li class="nav-item"><a class="nav-link" href="#noticias">NOT&Iacute;CIAS</a></li><span>|</span>-->
                                 <li class="nav-item"><a class="nav-link <%if (pageName.equals("contato.jsp")) {
                                         out.print("active");
                                     }%>" href="contato.jsp">CONTATO</a></li>

@@ -71,12 +71,11 @@
 <section id="premios" class="bg-light">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-xs-12">
+            <div class="col-md-6 col-xs-12 content">
                 <p class="title"><strong>Prêmios</strong></p>
-                <p>Conquistamos mais de 86 prêmios como os prêmios: Prêmio ABT, Personalidades Cliente SA, Prêmio Nacional de Telesserviços,
-                    Prêmio Internacional LATAM e Internacional CCW.</p>
+                <p>A BTCC já conquistou diversos prêmios, indicando que estamos no caminho certo junto com nossos colaboradores</p>
 
-                <p>E todo este sucesso é uma conquista de cada colaborador, porque fazer parte da BTCC Conexão Cliente é saber ouvir, oferecendo todos os dias um trabalho marcado pela eficiência e pela qualidade, tudo isso em prol de quem mais importa: o cliente. Aqui nos Apoderamos do Problema e, claro, Solucionamos, pois acreditamos que o cliente é o termômetro que move o nosso negócio. Faça parte você também da nossa história de sucesso, venha trabalhar conosco!</p>
+                <p>Acompanhe nossa trajetória de premiações.</p>
             </div>
             <div class="col-md-6 col-xs-12">
                 <div class="imagem-premio">
