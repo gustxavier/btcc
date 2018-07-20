@@ -177,6 +177,15 @@ a.btn-btcc-transparent{
     display: block;
 }
 
+.slick-player .slick-list div.slick-slide{
+    height: inherit;
+}
+
+.slick-player .slick-prev,
+.slick-player .slick-next{
+    display: none !important;
+}
+
 @media (max-width:767px) {
     h1 {
         font-size: 70px;

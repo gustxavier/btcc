@@ -14,7 +14,7 @@
                 <a href="empresa.jsp" class="btn-btcc hvr-pop">CONHEÇA A BTCC</a>
             </div>
             <div class="col-md-6 col-xs-12 image first">
-                <img src="assets/images/pessoa-bem-vindo.png" />            
+                <img id="random-bem-vindo"/>
             </div>
         </div>
     </div>
@@ -24,7 +24,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-xs-12 col-xs-push-12 image">
-                <img src="assets/images/pessoa-trabalhe-conosco.png" />            
+                <img id="random-trabalhe-conosco"/>            
             </div>
             <div class="col-md-6 col-xs-12 col-xs-pull-12 text">
                 <h1>
@@ -63,9 +63,42 @@
                 </ul>
             </div>
             <div class="col-md-6 col-xs-12 image">
-                <img src="assets/images/pessoa-onde-estamos.png" />            
+                <img id="random-onde-estamos"/>          
             </div>
         </div>
     </div>
 </section>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<!--<script async src="//jsfiddle.net/mohammadAdil/SvswX/embed/"></script>-->
+<script type="text/javascript">
+
+
+    var imageBemVindo = new Array();
+    imageBemVindo[0] = 'assets/images/pessoa-bem-vindo-1.png';
+    imageBemVindo[1] = 'assets/images/pessoa-bem-vindo-2.png';
+    imageBemVindo[2] = 'assets/images/pessoa-bem-vindo-3.png';
+
+    putImageRandom('random-bem-vindo', imageBemVindo);
+
+    var imageTrabalheConosco = new Array();
+    imageTrabalheConosco[0] = 'assets/images/pessoa-trabalhe-conosco-1.png';
+    imageTrabalheConosco[1] = 'assets/images/pessoa-trabalhe-conosco-2.png';
+    imageTrabalheConosco[2] = 'assets/images/pessoa-trabalhe-conosco-3.png';
+
+    putImageRandom('random-trabalhe-conosco', imageTrabalheConosco);
+
+    var imageTrabalheConosco = new Array();
+    imageTrabalheConosco[0] = 'assets/images/pessoa-onde-estamos-1.png';
+    imageTrabalheConosco[1] = 'assets/images/pessoa-onde-estamos-2.png';
+    imageTrabalheConosco[2] = 'assets/images/pessoa-onde-estamos-3.png';
+
+    putImageRandom('random-onde-estamos', imageTrabalheConosco);
+
+    function putImageRandom(idTagImage, arrayImages) {
+        var size = arrayImages.length;
+        var x = Math.floor(size * Math.random());
+        $('#' + idTagImage).attr('src', arrayImages[x]);
+    }
+
+</script>
 <%@include file="../assets/inc/footer.html"%>
